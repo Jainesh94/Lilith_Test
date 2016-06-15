@@ -5,7 +5,7 @@ html, body{
 
 body{
 	background: url("../images/blue_fire.png");
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 }
 .content-tab h3, .content-tab p{
