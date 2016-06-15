@@ -1,0 +1,48 @@
+html, body{
+	width: 100%;
+	min-height: 100%;
+}
+
+body{
+	background: url("../images/blue_fire.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.content-tab h3, .content-tab p{
+	margin-left: 10px;
+}
+.header h1{
+	color: #D3D3D3;
+	margin-top:100px;
+}
+.lilith{
+	color: skyblue;
+}
+.bodyContent{
+	background-clip:content-box;
+	border: 5px solid rgba(128,128,128,0.5);
+	/*background-color: white;*/
+	height: 545px;
+	border-radius: 10px;
+}
+.firstSidePanel{
+	background-color: white;
+	border: 5px solid grey;
+	height:75px;
+	margin-top:50px;
+	border-radius: 10px;
+}
+.secondSidePanel{
+	background-color: white;
+	border: 5px solid grey;
+	height:250px;
+	margin-top:10px;
+	border-radius: 10px;	
+}
+.thirdSidePanel{
+	background-color: white;
+	border: 5px solid grey;
+	height:150px;
+	margin-top:10px;
+	border-radius: 10px;	
+}
