@@ -54,4 +54,54 @@ p{
 .navGutter{
 	padding: 0;
 }
+.gridBox{
+	border: 1px solid red;
+	display: inline-block;
+	margin: 0 -2px;
+}
+.gridContainer{
+	margin: auto;
+}
 
+#projects{
+	padding: 10px;
+}
+
+@media screen and (min-width: 1201px){
+	.gridContainer{
+		width: 798px;
+	}
+	.gridBox{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.gridContainer{
+		width: 598px;
+	}
+	.gridBox{
+		width: 200px;
+		height: 200px;
+	}
+}	
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.gridContainer{
+		width: 398px;
+	}
+	.gridBox{
+		width: 200px;
+		height: 200px;
+	}
+}	
+@media screen and (max-width: 767px){
+	.gridContainer{
+		width: 90%;
+	}
+	.gridBox{
+		width: 50%;
+		height: auto;
+	}
+}	

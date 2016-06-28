@@ -1,4 +1,6 @@
-
+<?php
+	include('db/db.php');
+?>
 
 <!DOCTYPE html>
 <html>
@@ -84,42 +86,23 @@
 					</div>
 					<div id="projects" class="content-tab tab-pane fade">
 						<div class="gridContainer">	
-							
-				<a href="#">
-					<img class="gridBox" src="images/teemo.png" alt="Teemo">
-				</a>
-		
-				<a href="#">
-					<img class="gridBox" src="images/teemoTwo.png" alt="teemoTwo">
-				</a>
-		
-				<a href="#">
-					<img class="gridBox" src="images/teemo.png" alt="Blah">
-				</a>
-		
-				<a href="#">
-					<img class="gridBox" src="images/teemo.png" alt="nootnoot">
-				</a>
-		
-				<a href="#">
-					<img class="gridBox" src="images/teemoTwo.png" alt="blahblah">
-				</a>
-		
+							<?php 
+								include('php/image_function.php');
+							?>
 						</div>
 					</div>
 					<div id="source_code" class="content-tab tab-pane fade">
 					  <h3>Return-Void</h3>
-					  <p><b>Link:</b>
-<a href="https://github.com/lilith645/Return-Void">github.com/lilith645/Return-Void</a></p>
+					  <p><b>Link:</b> <font color="#0B0080">https://github.com/lilith645/Return-Void</font></p>
 					  <h3>Map-Hack (Gov-Hack 2015)</h3>
-					  <p><b>Link:</b> <a href="https://github.com/hjubb/govhack-maphack">github.com/hjubb/govhack-maphack</a></p>
+					  <p><b>Link:</b> <font color="#0B0080">https://github.com/hjubb/govhack-maphack</font></p>
 					</div>
 					<div id="details" class="content-tab tab-pane fade">
                  <h3>Information</h3>
 					  <p><b>Name:</b> Lilith Wynter</p>
 					  <p><b>Coding expirence:</b> C, C++, scala, Java, Javascript, python, C#, webGL, OpenGL</p>
-					  <p><b>Github:</b> <a href="https://github.com/lilith645/">github.com/lilith645/</a></p>
-					  <p><b>Resume:</b> <a href="http://home.inet-sys.com:1997/resume/">home.inet-sys.com:1997/resume/</a></p>
+					  <p><b>Github:</b> <font color="#0B0080">https://github.com/lilith645/</font></p>
+					  <p><b>Resume:</b> Somelink</p>
 					</div>
 				</div>					
 			</div>
@@ -131,8 +114,8 @@
 			</div>
 			<div class="thirdSidePanel">
 			  <p><center><b><u>Quick Links</u></b></center></p>
-			  <p>GitHub: <a href="https://github.com/lilith645/">lilith645</a></p>
-			  <p>Resume: <a href="http://home.inet-sys.com:1997/resume/">resume</a></p>
+			  <p>GitHub:</p>
+			  <p><font color="#0B0080"><center><u>https://github.com/lilith645/<u></center></font></p>
 			</div>			
 		</div>
 	</div>
