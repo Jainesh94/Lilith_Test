@@ -123,5 +123,6 @@
 
 <script type="text/javascript" src="jquery/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 </body>
 </html>
