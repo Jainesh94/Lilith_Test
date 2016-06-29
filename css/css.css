@@ -25,7 +25,6 @@ p{
 .bodyContent{
 	background-clip:content-box;
 	border: 5px solid rgba(128,128,128,0.5);
-	/*background-color: white;*/
 	min-height: 600px;
 	height: auto;
 	border-radius: 10px;
@@ -101,71 +100,8 @@ p{
 	z-index: 2;
 	color: black;
 	text-shadow: 0 0 2px black;
+	/*font-size: 1vw;*/
 }
-/*.teemo_text{
-	visibility: hidden;
-}*/
-
-
-/*.return_void_text, .block_game_text, .teemo_clone_text, .teemo_two_text{
-	visibility: hidden;
-	position: absolute;
-	z-index: 100;
-	color: red;
-}*/
-
-/*.teemo_hover{
-	position: absolute;
-}*/
-
-/*.teemo_text{
-	z-index: 100;
-	position:absolute;    
-    color:black;
-    font-size:24px;
-    font-weight:bold;
-    left:150px;
-    top:100px;	
-    visibility: hidden;
-}
-*/
-/*.teemo_text{
-	border: 2px solid red;
-	width: 200px;
-	position: absolute;
-
-}*/
-/*.teemo_text{
-	position:absolute;
-	bottom:30px;
-	left:0px;
-	visibility: hidden;
-}*/
-/*.return_void_hover, .block_game_hover, .teemo_hover, .teemo_clone_hover, .teemo_two_hover{
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
-	visibility: visible;
-}
-
-.return_void_hover:hover, .block_game_hover:hover, .teemo_hover:hover, .teemo_clone_hover:hover, .teemo_two_hover:hover{
-	opacity: 0.75;	
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
-	visibility: visible;
-}*/
-
-/*.return_void_text, .block_game_text, .teemo_clone_text, .teemo_two_text{*/
-	/*visibility: hidden;*/
-	/*position: absolute;*/
-/*	z-index: 100;
-	color: red;*/
-/*}*/
-
-/*.teemo_container p{
-	position: absolute;
-}*/
 
 @media screen and (min-width: 1201px){
 	.gridContainer{
@@ -174,6 +110,9 @@ p{
 	.gridBox{
 		width: 200px;
 		height: 200px;
+	}
+	.gridBoxAnchor p{
+		font-size: 30px;
 	}
 }
 
@@ -185,18 +124,22 @@ p{
 		width: 200px;
 		height: 200px;
 	}
+	.gridBoxAnchor p{
+		font-size: 20px;
+	}
 }	
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 	.gridContainer{
 		width: 398px;
 	}
-
 	.gridBox{
 		width: 200px;
 		height: 200px;
 	}
-
+	.gridBoxAnchor p{
+		font-size: 20px;
+	}
 }	
 @media screen and (max-width: 767px){
 	.gridContainer{
@@ -206,6 +149,9 @@ p{
 	.gridBox{
 		width: 50%;
 		height: auto;
+	}
+	.gridBoxAnchor p{
+		font-size: 20px;
 	}
 
 }	
